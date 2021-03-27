@@ -4,14 +4,25 @@
     margin: 0 auto;
     margin-top: 50px;
     padding: 20px;
-    overflow: scroll;
+    box-sizing:border-box;       
     border: 5px solid seagreen;
-}
 
+}
+  /*  box-sizing:border-box; указывая это свойство, мы в ширину и высоту включаем не только контент, но и padding и border */
 .button {
     display: block;
     width: 100px;
     height: 40px;
     margin: 0 auto;
     margin-top: 20px;
+}
+
+.second {
+    width: 300px;
+    height: 200px;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 20px;
+    border: 5px solid seagreen;
+    /* box-sizing: border-box; */
 }
